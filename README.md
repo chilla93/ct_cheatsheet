@@ -8,6 +8,7 @@ for me to ever remember them.
 
 # Table of Contents
 1. [Mobile Dev](#Mobile-Dev)
+2. [Bash Dev](#Bash-Dev)
 
 # Mobile Dev
 From quick fixes to build problems, terminal requests to quickly run simulators. Anything and every little thing related in this space will be found here.
@@ -46,3 +47,37 @@ From quick fixes to build problems, terminal requests to quickly run simulators.
     xcrun simctl install <YOUR-DEVICE-ID> <PATH-TO-APPLICATION-BUNDLE>
     xcrun simctl launch <YOUR-DEVICE-ID> <BUNDLE-ID-OF-APP-BUNDLE>
     ```
+
+# Bash Dev
+
+## Commands to remember
+
+### typeset -f <name>
+
+Print all functions with its content. if name is provided, returns only the specific function
+
+### typeset -F <name>
+
+Return function name declarations. content not returned
+
+### alias
+
+Short hand aliases along with the command that it will execute. __*You can imagine these to be void functions with no arguments.*__
+
+### grep
+
+Grep is an acronym that stands for `Global Regular Expression Print.`
+
+The basic usage of grep command is to search for a specific string in the specified file as shown below.
+
+```bash
+$ grep "this" demo_file
+this line is the 1st lower case line in this file.
+Two lines above this line is empty.
+And this is the last line.
+```
+
+### cat
+
+Spits out the content of a file. Probably specific/useful for text files.
+
