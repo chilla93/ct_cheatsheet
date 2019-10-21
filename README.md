@@ -92,3 +92,7 @@ python hello.py 2>/dev/null    # stderr to (null)
 python hello.py &>/dev/null    # stdout and stderr to (null)
 python hello.py < foo.txt      # feed foo.txt to stdin for python
 ```
+
+### which
+
+Identifies the location of executables
