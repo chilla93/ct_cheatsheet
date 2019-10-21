@@ -15,6 +15,7 @@ From quick fixes to build problems, terminal requests to quickly run simulators.
 
 ## Simulators
 
+For a quick resource on how the xcode simulator control command tool works, see below the [medium article](https://medium.com/xcblog/simctl-control-ios-simulators-from-command-line-78b9006a20dc)
 ### Starting iOS Simulators W/out Xcode
 
 - Command to see list of available devices
